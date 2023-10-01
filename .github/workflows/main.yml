@@ -22,7 +22,7 @@ jobs:
         pip install requests pandas matplotlib
 
     - name: Execute fetch_menu script
-      run: python fetch_menu.py
+      run: main.py
 
     - name: Commit and push if changes
       run: |
