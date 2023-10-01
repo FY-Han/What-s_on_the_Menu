@@ -21,7 +21,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests pandas matplotlib
 
-    - name: Execute fetch_menu script
+    - name: Execute main script
       run: main.py
 
     - name: Commit and push if changes
