@@ -2,7 +2,7 @@ name: Run fetch_menu script
 
 on:
   schedule:
-    - cron: '46 07 * * 1'  # This runs the action every Sunday at 8pm
+    - cron: '48 23 * * 0'  # This runs the action every Sunday at 8pm
 
 jobs:
   run-script:
